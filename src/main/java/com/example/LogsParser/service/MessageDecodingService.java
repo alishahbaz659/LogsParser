@@ -17,7 +17,6 @@ public class MessageDecodingService {
     public MessageDecodingService() {
         this.strategies = new HashMap<>();
 
-
         AsciiDecodingStrategy asciiStrategy = new AsciiDecodingStrategy();
         HexDecodingStrategy hexStrategy = new HexDecodingStrategy();
 

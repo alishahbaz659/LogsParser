@@ -32,7 +32,7 @@ public class PipelineReconstructionService {
             }
         }
 
-        pipelines.sort(Comparator.comparing(Pipeline::getId));
+        pipelines.sort(Comparator.comparing(Pipeline::getId).reversed());
         System.out.println("Reconstructed " + pipelines.size() + " pipelines");
         return pipelines;
     }
