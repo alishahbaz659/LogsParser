@@ -26,13 +26,13 @@
    <!-- Input Section -->
    <VBox spacing="5.0">
       <Label fx:id="inputLabel" styleClass="section-label" text="Input Logs:" />
-      <TextArea fx:id="inputArea" prefRowCount="12"  promptText="Paste log content here or use 'Load File' button...&#10;&#10;Example format:&#10;pipeline_id id encoding [body] next_id" styleClass="input-text-area" />
+      <TextArea fx:id="inputArea" prefRowCount="8"  promptText="Paste log content here or use 'Load File' button...&#10;&#10;Example format:&#10;pipeline_id id encoding [body] next_id" styleClass="input-text-area" />
    </VBox>
    
    <!-- Output Section -->
    <VBox spacing="5.0">
       <Label fx:id="outputLabel" styleClass="section-label" text="Output:" />
-      <TextArea fx:id="outputArea" editable="false" prefRowCount="16" styleClass="output-text-area" />
+      <TextArea fx:id="outputArea" editable="false" prefRowCount="12" styleClass="output-text-area" />
    </VBox>
    
    <!-- Status Bar -->
