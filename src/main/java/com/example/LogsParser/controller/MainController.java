@@ -100,8 +100,6 @@ public class MainController implements Initializable {
 
     private String formatPipelinesOutput(List<Pipeline> pipelines) {
         StringBuilder output = new StringBuilder();
-        output.append("Output\n");
-        output.append("─".repeat(50)).append("\n");
 
         for (Pipeline pipeline : pipelines) {
             output.append("Pipeline ").append(pipeline.getId()).append("\n");

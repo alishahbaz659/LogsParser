@@ -20,7 +20,7 @@
    <HBox spacing="10.0">
       <Button fx:id="loadFileButton" onAction="#handleLoadFile" styleClass="primary-button" text="📁 Load File" />
       <Button fx:id="parseButton" onAction="#handleParseLogs" styleClass="success-button" text="🔄 Parse Logs" />
-      <Button fx:id="clearButton" onAction="#handleClear" styleClass="danger-button" text="🗑️ Clear" />
+      <Button fx:id="clearButton" onAction="#handleClear" styleClass="danger-button" text="🗑 Clear" />
    </HBox>
    
    <!-- Input Section -->
